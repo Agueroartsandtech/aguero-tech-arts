@@ -1,0 +1,804 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Aguero Tech & Arts | Technology • Automation • Creativity</title>
+
+    <meta name="description"
+        content="Aguero Tech & Arts provides custom T-shirts, AI automation, WhatsApp automation, websites and professional CV services.">
+
+    <meta name="theme-color" content="#07090d">
+
+    <!-- Professional fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Your CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- ================= NAVIGATION ================= -->
+
+<header class="site-header">
+
+    <nav class="navbar">
+
+        <a href="#home" class="logo">
+            AGUERO <span>TECH & ARTS</span>
+        </a>
+
+        <button class="menu-toggle" id="menuToggle" aria-label="Open menu">
+            ☰
+        </button>
+
+        <ul class="nav-links" id="navLinks">
+
+            <li>
+                <a href="#home">Home</a>
+            </li>
+
+            <li>
+                <a href="#services">Services</a>
+            </li>
+
+            <li>
+                <a href="#shop">T-Shirts</a>
+            </li>
+
+            <li>
+                <a href="#about">About</a>
+            </li>
+
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+
+        </ul>
+
+    </nav>
+
+</header>
+
+
+<!-- ================= HERO ================= -->
+
+<main>
+
+<section class="hero" id="home">
+
+    <div class="hero-content">
+
+        <div class="hero-badge">
+            <span class="pulse"></span>
+            TECH • AUTOMATION • CREATIVE ARTS
+        </div>
+
+        <h1>
+            Build your idea.
+            <span>Automate your business.</span>
+            Wear your creativity.
+        </h1>
+
+        <p>
+            Welcome to <strong>Aguero Tech & Arts</strong> —
+            where technology meets creativity. We create custom
+            T-shirts and digital solutions for students, creators
+            and small businesses.
+        </p>
+
+        <div class="hero-buttons">
+
+            <a href="#shop" class="btn btn-primary">
+                Explore T-Shirts
+            </a>
+
+            <a href="#services" class="btn btn-outline">
+                Explore Services
+            </a>
+
+        </div>
+
+        <div class="hero-contact">
+
+            <span>📱 +237 680 945 208</span>
+
+            <span>✉️ princeagwe6@gmail.com</span>
+
+        </div>
+
+    </div>
+
+
+    <div class="hero-visual">
+
+        <div class="floating-card card-one">
+            👕
+            <strong>Custom T-Shirts</strong>
+        </div>
+
+        <div class="floating-card card-two">
+            🤖
+            <strong>AI Automation</strong>
+        </div>
+
+        <div class="floating-card card-three">
+            🌐
+            <strong>Websites</strong>
+        </div>
+
+        <div class="hero-circle">
+            <span>AGUERO</span>
+            <small>TECH & ARTS</small>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= STATS ================= -->
+
+<section class="stats">
+
+    <div class="stat">
+        <strong>👕</strong>
+        <span>Custom T-Shirts</span>
+    </div>
+
+    <div class="stat">
+        <strong>🤖</strong>
+        <span>AI Automation</span>
+    </div>
+
+    <div class="stat">
+        <strong>📱</strong>
+        <span>WhatsApp Solutions</span>
+    </div>
+
+    <div class="stat">
+        <strong>🌐</strong>
+        <span>Websites</span>
+    </div>
+
+    <div class="stat">
+        <strong>📄</strong>
+        <span>Student CVs</span>
+    </div>
+
+</section>
+
+
+<!-- ================= SERVICES ================= -->
+
+<section class="section" id="services">
+
+    <div class="section-heading">
+
+        <span class="small-title">WHAT WE OFFER</span>
+
+        <h2>
+            Digital solutions that
+            <span>move your ideas forward.</span>
+        </h2>
+
+        <p>
+            Practical technology and creative services for
+            individuals, students and growing businesses.
+        </p>
+
+    </div>
+
+
+    <div class="service-grid">
+
+        <article class="service-card">
+
+            <div class="service-icon">🤖</div>
+
+            <span class="service-number">01</span>
+
+            <h3>AI Automation</h3>
+
+            <p>
+                Automate repetitive tasks and create smarter
+                workflows that save time and improve productivity.
+            </p>
+
+            <button
+                class="service-link"
+                data-service="AI Automation">
+                Request Service →
+            </button>
+
+        </article>
+
+
+        <article class="service-card">
+
+            <div class="service-icon">📱</div>
+
+            <span class="service-number">02</span>
+
+            <h3>WhatsApp Automation</h3>
+
+            <p>
+                Automated customer communication, quick replies,
+                lead management and simple business workflows.
+            </p>
+
+            <button
+                class="service-link"
+                data-service="WhatsApp Automation">
+                Request Service →
+            </button>
+
+        </article>
+
+
+        <article class="service-card">
+
+            <div class="service-icon">🌐</div>
+
+            <span class="service-number">03</span>
+
+            <h3>Business Websites</h3>
+
+            <p>
+                Professional mobile-friendly websites for small
+                businesses, personal brands and services.
+            </p>
+
+            <button
+                class="service-link"
+                data-service="Small Business Website">
+                Request Service →
+            </button>
+
+        </article>
+
+
+        <article class="service-card">
+
+            <div class="service-icon">📄</div>
+
+            <span class="service-number">04</span>
+
+            <h3>Professional CVs</h3>
+
+            <p>
+                Clean and professional CVs designed for students,
+                graduates and job seekers.
+            </p>
+
+            <button
+                class="service-link"
+                data-service="Professional Student CV">
+                Request Service →
+            </button>
+
+        </article>
+
+
+        <article class="service-card">
+
+            <div class="service-icon">🎨</div>
+
+            <span class="service-number">05</span>
+
+            <h3>Digital Branding</h3>
+
+            <p>
+                Creative digital solutions to help your brand
+                establish a strong and professional presence.
+            </p>
+
+            <button
+                class="service-link"
+                data-service="Digital Branding">
+                Request Service →
+            </button>
+
+        </article>
+
+
+        <article class="service-card">
+
+            <div class="service-icon">💡</div>
+
+            <span class="service-number">06</span>
+
+            <h3>Tech Consultation</h3>
+
+            <p>
+                Have an idea but don't know where to start?
+                Let's discuss the best digital solution.
+            </p>
+
+            <button
+                class="service-link"
+                data-service="Tech Consultation">
+                Discuss My Idea →
+            </button>
+
+        </article>
+
+    </div>
+
+</section>
+
+
+<!-- ================= T-SHIRT SHOP ================= -->
+
+<section class="section shop-section" id="shop">
+
+    <div class="section-heading">
+
+        <span class="small-title">AGUERO ARTS</span>
+
+        <h2>
+            Wear your
+            <span>creativity.</span>
+        </h2>
+
+        <p>
+            Custom T-shirts designed and created around your
+            personality, idea or brand.
+        </p>
+
+    </div>
+
+
+    <div class="product-grid">
+
+        <article class="product-card">
+
+            <div class="product-placeholder">
+                <span>👕</span>
+                <small>YOUR T-SHIRT PHOTO</small>
+            </div>
+
+            <div class="product-info">
+
+                <span class="product-label">CUSTOM DESIGN</span>
+
+                <h3>Custom Painted T-Shirt</h3>
+
+                <p>
+                    Your design. Your colors. Your style.
+                </p>
+
+                <button
+                    class="buy-button"
+                    data-product="Custom Painted T-Shirt">
+                    Order on WhatsApp
+                </button>
+
+            </div>
+
+        </article>
+
+
+        <article class="product-card">
+
+            <div class="product-placeholder">
+                <span>🎨</span>
+                <small>YOUR DESIGN PHOTO</small>
+            </div>
+
+            <div class="product-info">
+
+                <span class="product-label">PERSONALIZED</span>
+
+                <h3>Personalized T-Shirt</h3>
+
+                <p>
+                    Names, artwork, logos and custom concepts.
+                </p>
+
+                <button
+                    class="buy-button"
+                    data-product="Personalized T-Shirt">
+                    Order on WhatsApp
+                </button>
+
+            </div>
+
+        </article>
+
+
+        <article class="product-card">
+
+            <div class="product-placeholder">
+                <span>✨</span>
+                <small>YOUR BRAND PHOTO</small>
+            </div>
+
+            <div class="product-info">
+
+                <span class="product-label">BRAND WEAR</span>
+
+                <h3>Business / Brand T-Shirt</h3>
+
+                <p>
+                    Turn your logo or brand into wearable art.
+                </p>
+
+                <button
+                    class="buy-button"
+                    data-product="Business Brand T-Shirt">
+                    Order on WhatsApp
+                </button>
+
+            </div>
+
+        </article>
+
+    </div>
+
+
+    <div class="shop-note">
+
+        📸
+        <strong>
+            Your T-shirt photos can be added here later.
+        </strong>
+
+        <span>
+            Send me your product photos and we can replace
+            these placeholders with your real products.
+        </span>
+
+    </div>
+
+</section>
+
+
+<!-- ================= ABOUT ================= -->
+
+<section class="section about-section" id="about">
+
+    <div class="about-content">
+
+        <span class="small-title">ABOUT AGUERO</span>
+
+        <h2>
+            Technology meets
+            <span>creativity.</span>
+        </h2>
+
+        <p>
+            Aguero Tech & Arts is a creative technology brand
+            focused on helping people and small businesses turn
+            ideas into practical products and digital solutions.
+        </p>
+
+        <p>
+            From custom-painted T-shirts to websites,
+            automation and professional CVs, our goal is simple:
+            create useful solutions while keeping creativity
+            at the center.
+        </p>
+
+        <a href="#contact" class="btn btn-primary">
+            Work With Us
+        </a>
+
+    </div>
+
+
+    <div class="about-box">
+
+        <div class="about-feature">
+            <span>✓</span>
+            <div>
+                <strong>Creative</strong>
+                <p>Original ideas and personalized designs.</p>
+            </div>
+        </div>
+
+        <div class="about-feature">
+            <span>✓</span>
+            <div>
+                <strong>Practical</strong>
+                <p>Solutions designed around your needs.</p>
+            </div>
+        </div>
+
+        <div class="about-feature">
+            <span>✓</span>
+            <div>
+                <strong>Digital</strong>
+                <p>Modern technology for modern businesses.</p>
+            </div>
+        </div>
+
+        <div class="about-feature">
+            <span>✓</span>
+            <div>
+                <strong>Personal</strong>
+                <p>Direct communication through WhatsApp.</p>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= HOW IT WORKS ================= -->
+
+<section class="section process-section">
+
+    <div class="section-heading">
+
+        <span class="small-title">SIMPLE PROCESS</span>
+
+        <h2>
+            From idea to
+            <span>reality.</span>
+        </h2>
+
+    </div>
+
+
+    <div class="process-grid">
+
+        <div class="process-step">
+
+            <div class="step-number">01</div>
+
+            <h3>Contact</h3>
+
+            <p>
+                Tell us what you need through WhatsApp.
+            </p>
+
+        </div>
+
+
+        <div class="process-step">
+
+            <div class="step-number">02</div>
+
+            <h3>Discuss</h3>
+
+            <p>
+                We discuss your requirements and project.
+            </p>
+
+        </div>
+
+
+        <div class="process-step">
+
+            <div class="step-number">03</div>
+
+            <h3>Create</h3>
+
+            <p>
+                We work on your product or digital solution.
+            </p>
+
+        </div>
+
+
+        <div class="process-step">
+
+            <div class="step-number">04</div>
+
+            <h3>Deliver</h3>
+
+            <p>
+                You receive your finished product or service.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= CONTACT ================= -->
+
+<section class="contact-section" id="contact">
+
+    <div class="contact-inner">
+
+        <div class="contact-content">
+
+            <span class="small-title">LET'S WORK TOGETHER</span>
+
+            <h2>
+                Have an idea?
+                <span>Let's build it.</span>
+            </h2>
+
+            <p>
+                Whether you need a custom T-shirt, website,
+                automation or professional CV, send us a message.
+            </p>
+
+            <div class="contact-details">
+
+                <a href="tel:+237680945208">
+                    📱
+                    <span>
+                        <small>CALL / WHATSAPP</small>
+                        +237 680 945 208
+                    </span>
+                </a>
+
+                <a href="mailto:princeagwe6@gmail.com">
+                    ✉️
+                    <span>
+                        <small>EMAIL</small>
+                        princeagwe6@gmail.com
+                    </span>
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div class="contact-card">
+
+            <h3>Start a project</h3>
+
+            <p>
+                Tell us what you need and we'll contact you
+                through WhatsApp.
+            </p>
+
+            <form id="contactForm">
+
+                <input
+                    type="text"
+                    id="customerName"
+                    placeholder="Your name"
+                    required>
+
+                <select id="customerService" required>
+
+                    <option value="">
+                        Select a service
+                    </option>
+
+                    <option value="Custom T-Shirt">
+                        Custom T-Shirt
+                    </option>
+
+                    <option value="AI Automation">
+                        AI Automation
+                    </option>
+
+                    <option value="WhatsApp Automation">
+                        WhatsApp Automation
+                    </option>
+
+                    <option value="Business Website">
+                        Business Website
+                    </option>
+
+                    <option value="Professional CV">
+                        Professional CV
+                    </option>
+
+                    <option value="Digital Branding">
+                        Digital Branding
+                    </option>
+
+                    <option value="Other">
+                        Other
+                    </option>
+
+                </select>
+
+                <textarea
+                    id="customerMessage"
+                    rows="5"
+                    placeholder="Tell us about your project..."
+                    required></textarea>
+
+                <button
+                    type="submit"
+                    class="btn btn-primary full-button">
+
+                    Send Request on WhatsApp
+
+                </button>
+
+            </form>
+
+            <button
+                class="email-button"
+                id="emailButton">
+
+                Or contact us by email
+
+            </button>
+
+        </div>
+
+    </div>
+
+</section>
+
+</main>
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+    <div class="footer-main">
+
+        <div>
+
+            <a href="#home" class="logo">
+                AGUERO <span>TECH & ARTS</span>
+            </a>
+
+            <p>
+                Technology • Automation • Creativity
+            </p>
+
+        </div>
+
+
+        <div class="footer-links">
+
+            <a href="#services">Services</a>
+
+            <a href="#shop">T-Shirts</a>
+
+            <a href="#about">About</a>
+
+            <a href="#contact">Contact</a>
+
+        </div>
+
+    </div>
+
+
+    <div class="footer-bottom">
+
+        <p>
+            © <span id="currentYear"></span>
+            Aguero Tech & Arts.
+            All rights reserved.
+        </p>
+
+        <p>
+            Cameroon 🇨🇲
+        </p>
+
+    </div>
+
+</footer>
+
+
+<!-- Back to top -->
+<button
+    id="backToTop"
+    class="back-to-top"
+    aria-label="Back to top">
+
+    ↑
+
+</button>
+
+
+<!-- Your JavaScript -->
+<script src="script.js"></script>
+
+</body>
+</html>
