@@ -1,0 +1,97 @@
+/* JavaScript animations */
+
+.reveal {
+    opacity: 0;
+    transform: translateY(25px);
+    transition: opacity 0.7s ease, transform 0.7s ease;
+}
+
+.reveal.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+/* Active navigation */
+
+nav ul li a.active {
+    color: var(--primary);
+}
+
+
+/* Notification */
+
+.aguero-notification {
+    position: fixed;
+    left: 50%;
+    bottom: 25px;
+
+    transform: translate(-50%, 100px);
+
+    background: #151c24;
+    color: white;
+
+    border: 1px solid rgba(0, 229, 255, 0.3);
+
+    padding: 13px 20px;
+
+    border-radius: 10px;
+
+    font-size: 13px;
+
+    z-index: 9999;
+
+    opacity: 0;
+
+    transition: 0.3s ease;
+
+    box-shadow: 0 10px 40px rgba(0,0,0,0.35);
+}
+
+.aguero-notification.visible {
+    opacity: 1;
+    transform: translate(-50%, 0);
+}
+
+
+/* Back to top */
+
+.back-to-top {
+    position: fixed;
+
+    right: 20px;
+    bottom: 20px;
+
+    width: 45px;
+    height: 45px;
+
+    border: 1px solid rgba(0, 229, 255, 0.3);
+
+    border-radius: 50%;
+
+    background: #11161d;
+
+    color: #00e5ff;
+
+    font-size: 20px;
+
+    cursor: pointer;
+
+    z-index: 999;
+
+    opacity: 0;
+
+    transform: translateY(20px);
+
+    transition: 0.3s ease;
+}
+
+.back-to-top.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.back-to-top:hover {
+    background: #00e5ff;
+    color: #001014;
+}
